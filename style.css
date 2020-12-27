@@ -1,0 +1,34 @@
+* {
+
+    -moz-box-sizing: border-box; / Firexfox /
+    -webkit-box-sizing: border-box; / Safari/Chrome/iOS/Android /
+    box-sizing: border-box; / IE /
+}
+
+body {
+    background: url('./img/backgroundpic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.container {
+    width: 600px;
+    margin: 100px auto;
+    background-color: rgb(214, 221, 224);
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+h1, h2 {
+    font-family: 'Courgette', cursive;
+}
+
+img {
+    width: 600px;
+    border-radius: 50%;
+}
+
